@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="white=device-width,initial-scale=1.0,user-scalable=no"/>
+		<style>
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			body,html{
+				width: 100%;
+				height: 100%;
+			}
+			.headwr{
+				width: 100%;
+				height: 45px;
+				background:#00B38A ;
+				color: #fff;
+				line-height: 45px;
+				text-align: center;
+	            position: fixed;
+	            top: 0;
+				font-size: 24px;
+			}
+			.content{
+				width: 100%;
+				margin-top: 45px;
+			}
+			.content-a{
+				width: 95%;
+				height: 40px;
+				margin: 0 auto;
+				line-height: 36px;
+			
+			}
+			.content-a span{
+				font-size: 14px;
+				height: 34px;
+				margin-top: 3px;
+				display: inline-block;
+			}
+			.content-a a{
+				float: right;
+				color: #00B38A;
+				padding: 0 20px;
+				background: #e2e2e2;
+				border-radius: 44%;
+				height: 34px;
+				display: inline-block;
+				margin-top: 3px;
+				text-decoration: none;
+			}
+			.content ul{
+				list-style: none;
+				width: 100%;
+				overflow: hidden;
+			}
+			.content li{
+				width: 93%;
+				padding: 14px;
+				border-top: 1px solid #e2e2e2;
+				margin: 0 auto;
+			}
+			.content li:nth-of-type(16){
+				background: #e2e2e2;
+				text-align: center;
+			}
+			.content li img{
+				float: left;
+				width: 60px;
+				height: 60px;
+			}
+			.box{
+				margin-left: 75px;
+				height: 65px;
+				width: 79%;
+			}
+			.box h2{
+				font-size: 18px;
+				margin-bottom: 5px;
+			}
+			.box .box-p{
+				width: 100%;
+				height: 15px;
+				line-height: 15px;
+				margin-bottom: 5px;
+			}
+			.box .box-p .spa{
+				float: left;
+				width: 54%;
+				display: inline-block;
+			    overflow: hidden;
+			    text-overflow: ellipsis;
+			    white-space: nowrap;
+			}
+			.box .box-p .sp{
+				float: right;
+				color: #00B38A;
+			}
+			.box .box_p{
+				color: #676767;
+				font-size: 12px;
+				margin-top: 8px;
+			}
+			.copyright{
+				width: 100%;
+				text-align: center;
+				margin-top: 30px;
+				padding-bottom:70px ;
+			}
+			.copyright p{
+				font-size: 12px;
+				color: #676767;
+			}
+			.copyright-a{
+				width: 100%;
+				text-align: center;
+			}
+			.copyright-sp{
+				font-size: 12px;
+				color: #676767;
+			}
+			.copyright-spn{
+				font-size: 12px;
+			}
+			.copyright-a a{
+				font-size: 12px;
+				color: #000;
+				text-decoration: none;
+			}
+			.footer{
+				width:100%;
+				height: 45px;
+				border-top: 1px solid #e2e2e2;
+				text-align: center;
+				line-height: 45px;
+				background-color: #f6f6f6;
+				position: fixed;
+				bottom: 0;
+			}
+			.footer div{
+				width: 33.3%;
+				float: left;
+				color: #c2cfcc;
+			}
+			.footer .footer-a{
+			  color: #00b38a;
+			  background-color: #e7f3f0;
+			  position: relative;
+			}
+			.s-sp{
+				background: url(img/icon2.png) no-repeat -32px -20.5px;
+				width: 17px;
+				height: 17px;
+				background-size: 250px 250px;
+				display: inline-block;
+			/*	position: absolute;
+				top: 0%;
+				left: 0%;*/
+			}
+			.s-spa{
+				background: url(img/icon2.png) no-repeat -14px -2.5px;
+				width: 17px;
+				height: 17px;
+				background-size: 250px 250px;
+				display: inline-block;
+			}
+			.s-span{
+				background: url(img/icon2.png) no-repeat -52.5px -2px;
+				width: 17px;
+				height: 17px;
+				background-size: 250px 250px;
+				display: inline-block;
+			}
+		</style>
+	</head>
+	<body>
+		<header class="headwr">拉勾网</header>
+	<div class="content">
+			<div class="content-a">
+				<span>10秒定制职位</span>
+				<a href="#">
+					<em>去登录</em>
+				</a>
+			</div>
+			<ul>
+				<li>
+					<img src="img/a.jpg" />
+					<div class="box">
+						<h2>蓝景信息</h2>
+						<p class="box-p">
+							<span class="spa">深度学习工程师</span>
+							<span class="sp">20k-30k</span>
+						</p>
+						<p class="box_p">今天 14:03</p>
+					</div>
+				</li>
+				<li>
+					<img src="img/c.png" />
+					<div class="box">
+						<h2>兔展RabbitPre</h2>
+						<p class="box-p">
+							<span class="spa"> 设计主管 [ 深圳 ]</span>
+							<span class="sp">12k-20k</span>
+						</p>
+						<p class="box_p">今天 15:15</p>
+					</div>
+				</li>
+				<li>
+					<img src="img/b.png" />
+					<div class="box">
+						<h2>蓝景信息</h2>
+						<p class="box-p">
+							<span class="spa">深度学习工程师</span>
+							<span class="sp">20k-30k</span>
+						</p>
+						<p class="box_p">今天 14:03</p>
+					</div>
+				</li>
+				<li>
+					<img src="img/d.png" />
+					<div class="box">
+						<h2>指掌易</h2>
+						<p class="box-p">
+							<span class="spa"> 品牌推广经理 [ 北京 ]</span>
+							<span class="sp">8k-15k</span>
+						</p>
+						<p class="box_p">今天 15:14</p>
+					</div>
+				</li>
+				<li>
+					<img src="img/e.gif" />
+					<div class="box">
+						<h2>中孚财富</h2>
+						<p class="box-p">
+							<span class="spa"> 影视投资顾问+应届生优先 [ 北京 ]</span>
+							<span class="sp">8k-9k</span>
+						</p>
+						<p class="box_p">今天 15:11</p>
+					</div>
+				</li>
+				<li>
+					<img src="img/f.jpg" />
+					<div class="box">
+						<h2>北京哈密瓜科技有限公司</h2>
+						<p class="box-p">
+							<span class="spa"> 行政文员 [ 北京 ]</span>
+							<span class="sp">4k-5k</span>
+						</p>
+						<p class="box_p">今天 15:27</p>
+					</div>
+				</li>
+				<li>
+					<img src="img/g.jpg" />
+					<div class="box">
+						<h2>一石科技</h2>
+						<p class="box-p">
+							<span class="spa"> 高级JAVA开发工程师 [ 北京 ]</span>
+							<span class="sp">15k-25k</span>
+						</p>
+						<p class="box_p">今天 15:26</p>
+					</div>
+				</li>
+				<li>
+					<img src="img/h.png" />
+					<div class="box">
+						<h2>武汉源启科技股份有限公司</h2>
+						<p class="box-p">
+							<span class="spa"> 售前工程师 [ 武汉 ]</span>
+							<span class="sp">8k-10k</span>
+						</p>
+						<p class="box_p">今天 15:30</p>
+					</div>
+				</li>
+				<li>
+					<img src="img/i.png" />
+					<div class="box">
+						<h2>世寰智能科技</h2>
+						<p class="box-p">
+							<span class="spa">无人机飞控手 [ 佛山 ]</span>
+							<span class="sp">4k-6k</span>
+						</p>
+						<p class="box_p">今天 13:38</p>
+					</div>
+				</li>
+				<li>
+					<img src="img/j.png" />
+					<div class="box">
+						<h2>盯盯拍</h2>
+						<p class="box-p">
+							<span class="spa"> 资深用户体验设计师 [ 深圳 ]</span>
+							<span class="sp">18k-30k</span>
+						</p>
+						<p class="box_p">今天 15:38</p>
+					</div>
+				</li>
+				<li>
+					<img src="img/k.png" />
+					<div class="box">
+						<h2>文思海辉</h2>
+						<p class="box-p">
+							<span class="spa"> 数据库开发工程师 [ 南京 ]</span>
+							<span class="sp">10k-15k</span>
+						</p>
+						<p class="box_p">今天 15:39</p>
+					</div>
+				</li>
+				<li>
+					<img src="img/l.jpg" />
+					<div class="box">
+						<h2>湖南创发</h2>
+						<p class="box-p">
+							<span class="spa"> 软件实施工程师 [ 长沙 ]</span>
+							<span class="sp">4k-6k</span>
+						</p>
+						<p class="box_p">今天 15:40</p>
+					</div>
+				</li>
+				<li>
+					<img src="img/m.png" />
+					<div class="box">
+						<h2>极客移动</h2>
+						<p class="box-p">
+							<span class="spa"> 商务拓展 [ 西安 ]</span>
+							<span class="sp">4k-8k</span>
+						</p>
+						<p class="box_p">今天 15:41</p>
+					</div>
+				</li>
+				<li>
+					<img src="img/n.png" />
+					<div class="box">
+						<h2>上海傲梦网络科技有限公司</h2>
+						<p class="box-p">
+							<span class="spa">Java开发 [ 上海 ]</span>
+							<span class="sp">15k-25k</span>
+						</p>
+						<p class="box_p">今天 15:42</p>
+					</div>
+				</li>
+				<li>
+					<img src="img/a.jpg" />
+					<div class="box">
+						<h2>蓝景信息</h2>
+						<p class="box-p">
+							<span class="spa">深度学习工程师</span>
+							<span class="sp">20k-30k</span>
+						</p>
+						<p class="box_p">今天 14:03</p>
+					</div>
+				</li>
+				<li>加载更多</li>
+			</ul>
+			
+			
+		</div>
+
+	 <div class="copyright">
+	 	<p>©2015 lagou.com, all right reserved </p>
+	 	<div class="copyright-a">
+	 		<span class="copyright-sp">移动版 · </span>
+	 		<span class="copyright-spn">电脑版 · </span>
+	 		<a href="#">回顶部</a>
+	 	</div>
+	 </div>
+	 
+	 <footer class="footer">
+	 	<div class="footer-a">
+	 		<span class="s-sp"></span>
+	 		<span>职位</span>
+	 	</div>
+	 	<div class="footer-b">
+	 		<span class="s-spa"></span>
+	 		<span>搜索</span>
+	 	</div>
+	 	<div class="footer-c">
+	 		<span class="s-span"></span>
+	 		<span>我的</span>
+	 	</div>
+	 </footer>
+	</body>
+</html>
